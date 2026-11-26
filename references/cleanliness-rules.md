@@ -35,4 +35,5 @@ This skill defines mandatory hygiene standards for creating and managing files d
 
 ### 4. Cleanup After Completion
 - Before concluding a task, review files created during execution.
+- Immediately delete temporary downloaded reference videos/audio (`.mp4`, `.wav`, raw frame dumps, `.info.json`) and temporary `gh_push*` staging clones after skill absorption or GitHub push completes (keep only lightweight contact sheets referenced by active user-facing artifacts).
 - Delete one-off throwaway test scripts with user consent, or move persistent tools into the appropriate project/experiments subfolder.
