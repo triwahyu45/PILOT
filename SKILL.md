@@ -1,5 +1,5 @@
 ---
-name: pilot
+name: PILOT
 description: Enforces strict workspace directory cleanliness (isolating scratch scripts, installers, and temp files) and preserves project state, milestones, and handoff continuity across multi-session chats. Use on every project workspace to keep roots clean and resume work seamlessly.
 ---
 
