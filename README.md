@@ -10,7 +10,7 @@ Clone this skill into your agent's global or project skills directory:
 
 | Agent | Global Install Path | Project-Local Path |
 | :--- | :--- | :--- |
-| **Antigravity** | `~/.gemini/config/skills/PILOT` | `.agents/skills/PILOT` |
+| **Antigravity** | Global Antigravity skills dir | `.agents/skills/PILOT` |
 | **Claude Code** | `~/.claude/skills/PILOT` | `.claude/skills/PILOT` |
 | **OpenAI Codex** | `~/.codex/skills/PILOT` | `.agents/skills/PILOT` |
 
@@ -33,7 +33,7 @@ git clone https://github.com/triwahyu45/PILOT.git ~/.claude/skills/PILOT
 ## Included Files
 
 - `SKILL.md` — Core workspace & continuity rules
-- `scripts/sync_skills.py` — One-click security/frontmatter audit & GitHub sync checker for all 14 flagship skills + `NINGYO`
+- `scripts/sync_skills.py` — Two-layer pre-push security gate (deep secret/path scan + `--skillspector` audit) & `--check-github` sync checker for all 14 flagship skills + `NINGYO`
 - `references/cleanliness-rules.md` — Scratch isolation & zero root-clutter rules
 - `references/continuity-protocol.md` — Session start/milestone sync workflow
 - `references/handoff-protocol.md`, `references/state-schema.md`, & `references/query-conversations.md`

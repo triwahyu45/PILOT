@@ -11,7 +11,9 @@ Combines **Workspace Cleanliness** (`references/cleanliness-rules.md`) with **Cr
 
 ## Core Rules & One-Click Audit
 
-- Run `python scripts/sync_skills.py --check-github` to validate all 14 flagship skills (YAML frontmatter, `README.md`, zero secrets/personal paths, and public GitHub sync).
+- **Mandatory Two-Layer Pre-Push Gate**: Before ANY public GitHub push, run `python scripts/sync_skills.py --skill <NAME> --skillspector` (deep secret/token/path scan + NVIDIA SkillSpector 0 `CRITICAL`/`HIGH` audit; add `--allow-vendored-ae1` only for `SAMURAI`).
+- **Full Sync Verification**: Run `python scripts/sync_skills.py --check-github` to validate all 14 flagship skills + `NINGYO` against GitHub.
 
 1. **Zero Root Clutter**: Never drop temporary `.py`, `.ps1`, `.bat`, `.sh`, or test artifacts into workspace roots; isolate them in the designated scratch directory.
 2. **Session Continuity**: On new chats in an active project, check existing handoff/state docs first; on major milestones, update project state cleanly so the next session resumes with zero lost context.
+3. **Short Flagship Skill Naming**: Never create long hyphenated standalone global skill folders; merge domain knowledge into the matching 1-word UPPERCASE flagship skill (`references/`), or if a standalone skill is explicitly requested, always use a short 1-word ALL-CAPS codename matching its folder name.
