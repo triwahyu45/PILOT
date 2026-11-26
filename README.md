@@ -33,7 +33,7 @@ git clone https://github.com/triwahyu45/PILOT.git ~/.claude/skills/PILOT
 ## Included Files
 
 - `SKILL.md` — Core workspace & continuity rules
-- `scripts/sync_skills.py` — One-click security/frontmatter audit & GitHub sync checker for all 13 flagship skills + `NINGYO`
+- `scripts/sync_skills.py` — One-click security/frontmatter audit & GitHub sync checker for all 14 flagship skills + `NINGYO`
 - `references/cleanliness-rules.md` — Scratch isolation & zero root-clutter rules
 - `references/continuity-protocol.md` — Session start/milestone sync workflow
 - `references/handoff-protocol.md`, `references/state-schema.md`, & `references/query-conversations.md`

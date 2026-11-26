@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-sync_skills.py — Audit all 13 UPPERCASE flagship skills (+ optional GitHub parity check).
+sync_skills.py — Audit all 14 UPPERCASE flagship skills (+ optional GitHub parity check).
 
 Zero external dependencies (Python 3.10+ stdlib).
 Checks each flagship skill for:
@@ -31,6 +31,7 @@ FLAGSHIP_SKILLS = [
     "FORGE",
     "TITAN",
     "XRAY",
+    "NOVA",
     "PILOT",
     "WARP",
     "STACK",

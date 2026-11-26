@@ -11,7 +11,7 @@ Combines **Workspace Cleanliness** (`references/cleanliness-rules.md`) with **Cr
 
 ## Core Rules & One-Click Audit
 
-- Run `python scripts/sync_skills.py --check-github` to validate all 13 flagship skills (YAML frontmatter, `README.md`, zero secrets/personal paths, and public GitHub sync).
+- Run `python scripts/sync_skills.py --check-github` to validate all 14 flagship skills (YAML frontmatter, `README.md`, zero secrets/personal paths, and public GitHub sync).
 
 1. **Zero Root Clutter**: Never drop temporary `.py`, `.ps1`, `.bat`, `.sh`, or test artifacts into workspace roots; isolate them in the designated scratch directory.
 2. **Session Continuity**: On new chats in an active project, check existing handoff/state docs first; on major milestones, update project state cleanly so the next session resumes with zero lost context.
