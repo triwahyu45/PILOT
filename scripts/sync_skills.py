@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-sync_skills.py — Two-layer pre-push security & sync audit for all 17 UPPERCASE flagship skills.
+sync_skills.py — Two-layer pre-push security & sync audit for all 18 UPPERCASE flagship skills.
 
 Zero external dependencies (Python 3.10+ stdlib).
 Layer 1: Deep secret, credential, token, and personal/agent-config path scan + frontmatter/README check.
@@ -27,6 +27,7 @@ FLAGSHIP_SKILLS = [
     "ATELIER",
     "KURA",
     "SCRIBE",
+    "SIGNAL",
     "KITSUNE",
     "PRISM",
     "KAGAMI",
