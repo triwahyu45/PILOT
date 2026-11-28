@@ -12,7 +12,7 @@ Combines **Workspace Cleanliness** (`references/cleanliness-rules.md`) with **Cr
 ## Core Rules & One-Click Audit
 
 - **Mandatory Two-Layer Pre-Push Gate**: Before ANY public GitHub push, run `python scripts/sync_skills.py --skill <NAME> --skillspector` (deep secret/token/path scan + NVIDIA SkillSpector 0 `CRITICAL`/`HIGH` audit; add `--allow-vendored-ae1` only for `SAMURAI`).
-- **Full Sync Verification**: Run `python scripts/sync_skills.py --check-github` to validate all 18 flagship skills + `NINGYO` against GitHub.
+- **Full Sync Verification**: Run `python scripts/sync_skills.py --check-github` to validate all 19 flagship skills + `NINGYO` against GitHub.
 - **Sync `ARSENAL` Hub**: Whenever adding a new flagship skill or shipping a major upgrade, update `triwahyu45/ARSENAL` (`README.md`, `install.ps1`, `install.sh`) so installers and catalog stay in sync.
 
 1. **Zero Root Clutter**: Never drop temporary `.py`, `.ps1`, `.bat`, `.sh`, or test artifacts into workspace roots; isolate them in the designated scratch directory.
